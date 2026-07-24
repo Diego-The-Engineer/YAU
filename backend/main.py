@@ -14,3 +14,4 @@ app.addMiddleware(
 @app.get('/')
 def saludo():
     return {"msg": "Hola mundo"}
+
